@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1EFC906D-4D23-4EA9-A59C-08F20D233944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecyclingCalendar.Core", "src\RecyclingCalendar.Core\RecyclingCalendar.Core.csproj", "{132F4C44-FE23-4D4D-8925-8CD0E7884D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecyclingCalendar.Api", "src\RecyclingCalendar.Api\RecyclingCalendar.Api.csproj", "{53C8FE60-1CBD-4E1C-AB29-4455AD73E215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecyclingCalendar.Infrastructure", "src\RecyclingCalendar.Infrastructure\RecyclingCalendar.Infrastructure.csproj", "{21619467-C250-4016-BF30-9DA0B67D4262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{132F4C44-FE23-4D4D-8925-8CD0E7884D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132F4C44-FE23-4D4D-8925-8CD0E7884D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132F4C44-FE23-4D4D-8925-8CD0E7884D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132F4C44-FE23-4D4D-8925-8CD0E7884D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C8FE60-1CBD-4E1C-AB29-4455AD73E215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C8FE60-1CBD-4E1C-AB29-4455AD73E215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C8FE60-1CBD-4E1C-AB29-4455AD73E215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C8FE60-1CBD-4E1C-AB29-4455AD73E215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21619467-C250-4016-BF30-9DA0B67D4262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21619467-C250-4016-BF30-9DA0B67D4262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21619467-C250-4016-BF30-9DA0B67D4262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21619467-C250-4016-BF30-9DA0B67D4262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{132F4C44-FE23-4D4D-8925-8CD0E7884D78} = {1EFC906D-4D23-4EA9-A59C-08F20D233944}
+		{53C8FE60-1CBD-4E1C-AB29-4455AD73E215} = {1EFC906D-4D23-4EA9-A59C-08F20D233944}
+		{21619467-C250-4016-BF30-9DA0B67D4262} = {1EFC906D-4D23-4EA9-A59C-08F20D233944}
+	EndGlobalSection
+EndGlobal
