@@ -62,7 +62,10 @@ public class EventController : ControllerBase
 
     private static Calendar BuildCalendar(IList<RecyclingEvent> events, EventsOptions options)
     {
-        var calendar = new Calendar();
+        var calendar = new Calendar()
+        {
+            Name = "Poubelles"
+        };
         events.ToList().ForEach(recyclingEvent =>
         {
             var e = new CalendarEvent()
@@ -70,7 +73,7 @@ public class EventController : ControllerBase
                 IsAllDay = true,
                 Start = new CalDateTime(recyclingEvent.EventDate.ToDateTime(TimeOnly.MinValue)),
                 Summary = recyclingEvent.Summary,
-                Description = recyclingEvent.Description
+                Description = recyclingEvent.Description,
             };
             if (options.AlarmTime != null)
             {
