@@ -62,10 +62,7 @@ public class EventController : ControllerBase
 
     private static Calendar BuildCalendar(IList<RecyclingEvent> events, EventsOptions options)
     {
-        var calendar = new Calendar()
-        {
-            Name = "Poubelles"
-        };
+        var calendar = new Calendar();
         events.ToList().ForEach(recyclingEvent =>
         {
             var e = new CalendarEvent()
